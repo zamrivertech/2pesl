@@ -414,7 +414,8 @@ header {
     width: 48px;
     height: 48px;
     border-radius: 14px;
-    background: #fff3c8;
+    background: var(--gold);
+    color: #060b13;
     display: grid;
     place-items: center;
     font-size: 1.35rem;
@@ -429,10 +430,6 @@ header {
 .dark {
     background: var(--ink);
     color: white
-}
-
-.dark p {
-    color: #c8d0dc
 }
 
 .split {
