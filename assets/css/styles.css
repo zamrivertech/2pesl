@@ -281,8 +281,8 @@ header {
 
 .hero-media .main {
     width: 100%;
-    aspect-ratio: 4/5;
-    object-fit: cover;
+    aspect-ratio: 5/5;
+    object-fit: center;
     border-radius: 36px;
     box-shadow: 0 35px 90px rgba(0, 0, 0, .38);
     border: 1px solid rgba(255, 255, 255, .13)
@@ -302,11 +302,12 @@ header {
 .floating-card {
     position: absolute;
     left: -40px;
-    bottom: 36px;
+    top: 16px;
     background: rgba(255, 255, 255, .95);
     color: var(--ink);
+    border: solid 3px var(--ink2);
     padding: 18px 20px;
-    border-radius: 18px;
+    border-radius: 25px;
     box-shadow: var(--shadow);
     max-width: 245px
 }
