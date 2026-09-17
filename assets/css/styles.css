@@ -152,8 +152,7 @@ header {
 }
 
 .brand img {
-    width: 56px;
-    height: 56px;
+    width: 96px;
     object-fit: contain;
     border-radius: 12px
 }
@@ -775,8 +774,7 @@ strong {
     }
 
     .brand img {
-        width: 46px;
-        height: 46px
+        width: 86px;
     }
 
     .hero h1 {
